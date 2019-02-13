@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci-Number-Generator", "Fibonacci-Number-Generator\Fibonacci-Number-Generator.csproj", "{6185B962-7873-49C4-80E7-A3924053667C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci-Number-Generator", "Fibonacci-Number-Generator\Fibonacci-Number-Generator.csproj", "{6185B962-7873-49C4-80E7-A3924053667C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariableBase.Mathematics", "..\..\Variable-Base-Math\VariableBase.Mathematics\VariableBase.Mathematics\VariableBase.Mathematics.csproj", "{9297BFA1-1550-4174-A1FC-6443033AA623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariableBase.Mathematics", "..\..\Math\VariableBase.Mathematics\VariableBase.Mathematics\VariableBase.Mathematics.csproj", "{6D3B0428-507E-4F44-A346-3C8CB26C068C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "..\..\Math\Common\Common.csproj", "{5F23ECD8-EECB-467D-A75A-E49BB894EF52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureStorageRepositories", "..\..\Math\AzureStorageRepositories\AzureStorageRepositories.csproj", "{8081EBFF-0AA3-449F-8D4B-2F65834E7F75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileRepositories", "..\..\Math\FileRepositories\FileRepositories.csproj", "{62493F9B-AFCA-499E-8733-65C26B3E9692}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +23,22 @@ Global
 		{6185B962-7873-49C4-80E7-A3924053667C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6185B962-7873-49C4-80E7-A3924053667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6185B962-7873-49C4-80E7-A3924053667C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9297BFA1-1550-4174-A1FC-6443033AA623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9297BFA1-1550-4174-A1FC-6443033AA623}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9297BFA1-1550-4174-A1FC-6443033AA623}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9297BFA1-1550-4174-A1FC-6443033AA623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3B0428-507E-4F44-A346-3C8CB26C068C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3B0428-507E-4F44-A346-3C8CB26C068C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3B0428-507E-4F44-A346-3C8CB26C068C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3B0428-507E-4F44-A346-3C8CB26C068C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F23ECD8-EECB-467D-A75A-E49BB894EF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F23ECD8-EECB-467D-A75A-E49BB894EF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F23ECD8-EECB-467D-A75A-E49BB894EF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F23ECD8-EECB-467D-A75A-E49BB894EF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8081EBFF-0AA3-449F-8D4B-2F65834E7F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8081EBFF-0AA3-449F-8D4B-2F65834E7F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8081EBFF-0AA3-449F-8D4B-2F65834E7F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8081EBFF-0AA3-449F-8D4B-2F65834E7F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62493F9B-AFCA-499E-8733-65C26B3E9692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62493F9B-AFCA-499E-8733-65C26B3E9692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62493F9B-AFCA-499E-8733-65C26B3E9692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62493F9B-AFCA-499E-8733-65C26B3E9692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
